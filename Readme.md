@@ -116,10 +116,10 @@ Get or Create a free tier Key :
 
 ## how to test
 
-one time per terminal session to active local python environment
+one time per terminal session to activate virtual python environment
 
 ```
-source .venv/bin/activat
+source .venv/bin/activate
 ```
 
 one time per terminal session to setenv GEMINI_API_KEY
