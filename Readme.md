@@ -19,7 +19,7 @@ Code from
 
 https://aistudio.google.com/u/2/live?model=gemini-2.5-flash-native-audio-preview-12-2025
 
-has many audio gaps when playing response audio from LLM. 
+has many audio gaps when playing response audio from LLM,
 because mic is listening while LLM sends the audio.  
 
 ## aistudio1.py
@@ -34,6 +34,7 @@ Code from
 
 https://ai.google.dev/gemini-api/docs/live?example=mic-stream
 
+same issue with many gaps at audio play
 
 ## aistudio.py          <<<< DECENT PLAY OF LLM AUDIO
 
