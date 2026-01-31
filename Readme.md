@@ -99,7 +99,12 @@ wget -qO- https://astral.sh/uv/install.sh | sh
 ## installation
 
 ```
+# choose project location
+mkdir -p projects
+cd projects
+
 git clone https://github.com/kletin/liveapi
+cd liveapi
 
 uv sync
 
